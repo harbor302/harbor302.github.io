@@ -1,152 +1,199 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Harbor (Haobo) Liu",
+    "label": "Machine Learning Engineer",
+    "email": "hl6597@nyu.edu",
+    "phone": "+1 (201) 589-9209",
+    "website": "https://harbor302.github.io",
+    "summary": "Seeking MLE / SWE / SDE Intern for Summer 2026 | Ex-MLE Intern at Baidu | Passionate about CV and ML",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "New York",
+      "region": "NY",
+      "countryCode": "US"
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "network": "LinkedIn",
+        "username": "harbor-liu",
+        "url": "https://www.linkedin.com/in/harbor-liu"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "harbor302",
+        "url": "https://github.com/harbor302"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Baidu, Inc.",
+      "position": "Machine Learning Engineer Intern",
+      "location": "Beijing, China",
+      "startDate": "2023-11",
+      "endDate": "2024-11",
+      "summary": "Developed anti-fraud vision systems and graph models across the content-moderation stack.",
+      "highlights": [
+        "Built FFmpeg sampling, MTCNN alignment, CosFace embeddings, and ANN clustering to automate 1.6k+ duplicate-face detections daily.",
+        "Fused ASR/OCR fingerprints, behavioral features, and few-shot/self-training models (SMOTE, LOF, stacking, TrAdaBoost) to raise recall from 74% → 92% and precision from 75% → 96%.",
+        "Deployed GraphSAGE + Louvain fraud community detection and XGBoost/GBDT/RF scoring on Kubernetes with MLflow tracking and A/B tests."
+      ]
+    },
+    {
+      "company": "China National Petroleum Corporation",
+      "position": "Machine Learning Engineer Intern",
+      "location": "Beijing, China",
+      "startDate": "2024-06",
+      "endDate": "2024-07",
+      "summary": "Built anomaly-detection pipelines for photovoltaic inspection.",
+      "highlights": [
+        "Automated OpenCV preprocessing, SAM mask creation, and Faster R-CNN fine-tuning to improve mAP@[0.5:0.95] to 42.4 on 12k images.",
+        "Containerized training via Docker and distributed workloads on Hadoop, reducing epoch time by 35%."
+      ]
+    },
+    {
+      "company": "Ragine Technology (Incubated by Xidian University)",
+      "position": "Machine Learning Engineer Intern",
+      "location": "Xi’an, China (Remote)",
+      "startDate": "2023-07",
+      "endDate": "2023-09",
+      "summary": "Scaled datasets and deployed embedded vision pipelines for drone imagery.",
+      "highlights": [
+        "Expanded datasets from 1k → 15k using mosaic augmentation and synthetic occlusion; re-clustered YOLOv8 anchors and tuned NMS/IoU thresholds.",
+        "Shipped U-Net + OSTrack solutions on embedded edge boards for real-time target monitoring."
+      ]
+    },
+    {
+      "company": "CUPB Robotics Team (RoboMaster & Robocon Champion)",
+      "position": "Computer Vision Group Lead",
+      "location": "Beijing, China",
+      "startDate": "2022-09",
+      "endDate": "2025-06",
+      "summary": "Directed perception, tracking, and decision pipelines for autonomous robots.",
+      "highlights": [
+        "Integrated RGB-D, LiDAR, pose estimation, and depth-based yaw using YOLOv5 + Kalman filters on ROS2 with serial I/O.",
+        "Designed TD-learning control policies with ε-greedy exploration, random sampling, early pruning, and hash-based deduplication; automated OpenVINO deployments with Shell rollback.",
+        "Built Webots simulations for rapid experimentation and dataset generation."
+      ]
+    },
+    {
+      "company": "China University of Petroleum (Beijing)",
+      "position": "Research Assistant – Multimodal Sentiment Classification and Generation",
+      "location": "Beijing, China",
+      "startDate": "2025-01",
+      "endDate": "2025-05",
+      "summary": "Explored multimodal sentiment modeling with joint vision-language transformers.",
+      "highlights": [
+        "Combined ResNet-50 visuals and RoBERTa text using Transformer cross-attention, outperforming the MMBT baseline by 8% accuracy.",
+        "Fine-tuned Stable Diffusion with LoRA (rank 8) for emotion-conditioned image generation."
+      ]
+    },
+    {
+      "company": "Xidian University",
+      "position": "Research Assistant",
+      "location": "Xi’an, China",
+      "startDate": "2023-07",
+      "endDate": "2023-09",
+      "summary": "Delivered embedded perception systems for industrial applications.",
+      "highlights": [
+        "Scaled datasets, re-clustered YOLOv8 anchors, and combined U-Net segmentation with OSTrack tracking.",
+        "Deployed optimized pipelines on Linux-based edge devices for real-time inference."
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
+      "institution": "New York University, Courant Institute of Mathematical Sciences",
+      "area": "Computer Science",
+      "studyType": "M.S.",
+      "startDate": "2025-09",
+      "endDate": "2027-05",
+      "location": "New York, NY",
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
+      "institution": "China University of Petroleum (Beijing)",
+      "area": "Artificial Intelligence",
+      "studyType": "B.Eng.",
+      "startDate": "2021-09",
+      "endDate": "2025-06",
+      "location": "Beijing, China",
       "courses": []
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
-  "references": [],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": [
+        "Python (Pandas, NumPy, scikit-learn, Matplotlib)",
+        "C/C++",
+        "Bash/Shell",
+        "SQL",
+        "Racket",
+        "HTML/CSS",
+        "CUDA"
+      ]
+    },
+    {
+      "name": "Developer Tools & Platforms",
+      "keywords": [
+        "GitHub",
+        "GitLab",
+        "MLflow",
+        "Docker",
+        "Kubernetes",
+        "Flask",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Hadoop",
+        "Spark",
+        "Xmind"
+      ]
+    },
+    {
+      "name": "Frameworks & Models",
+      "keywords": [
+        "PyTorch",
+        "TensorFlow",
+        "Keras",
+        "Hugging Face",
+        "OpenCV",
+        "YOLOv5/v8",
+        "U-Net",
+        "SAM",
+        "GraphSAGE",
+        "Transformers",
+        "Stable Diffusion",
+        "LLaMA",
+        "GPT"
+      ]
+    }
+  ],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "CaSTGCN: Deep Learning Method for Information Cascade Prediction",
+      "publisher": "IEEE Conference on Automation and Computing (CAC)",
+      "releaseDate": "2025-02-13",
+      "website": "https://ieeexplore.ieee.org/",
+      "summary": "Introduced TCN + ST-GCN with dual-branch 1×1 attention, Optuna-based hyperparameter search (400 trials), and training refinements that reduced MSLE by 15% versus baselines."
     }
   ],
-  "presentations": [
+  "interests": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
+      "name": "Computer Vision",
+      "keywords": [
+        "Anti-fraud",
+        "Robotics perception",
+        "Anomaly detection"
+      ]
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "name": "Multimodal Generation",
+      "keywords": [
+        "Transformers",
+        "Stable Diffusion",
+        "Cross-attention"
+      ]
     }
   ]
 }

@@ -1,18 +1,10 @@
-# Authors
+# Authors used by blog posts or collections.
 
-Name Name:
-  name        : "Name Name"
-  uri         : "https://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+Harbor Liu:
+  name        : "Harbor (Haobo) Liu"
+  uri         : "https://harbor302.github.io"
+  email       : "hl6597@nyu.edu"
+  bio         : "MSCS @ NYU Courant ’27 · Seeking MLE Intern for Summer 2026 · Computer vision, anti-fraud, multimodal AI."
+  avatar      : "profile.png"
+  linkedin    : "https://www.linkedin.com/in/harbor-liu/"
+  github      : "https://github.com/harbor302"
